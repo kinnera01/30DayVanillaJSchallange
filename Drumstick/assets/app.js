@@ -9,10 +9,10 @@ function removeTransition(e) {
       let key;
       if(!isNaN(e)){
          audio = document.querySelector(`audio[data-key="${e}"]`); 
-         key = document.querySelector(`button[data-key="${e}"]`);
+         key = document.querySelector(`li[data-key="${e}"]`);
       }else{
          audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-       key = document.querySelector(`button[data-key="${e.keyCode}"]`);
+       key = document.querySelector(`li[data-key="${e.keyCode}"]`);
       }
 
     if (!audio) return;

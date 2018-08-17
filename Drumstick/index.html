@@ -5,62 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <link href=" https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="assets/style.css" />
-    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
     <title>DrumMusic</title>
 </head>
 
 
 <body>
-    <h1>Press keys on  keyboard to listen Sounds</h1>
-    <div class="keys">
-        <button onClick="playSound(this.value)" value= "81" data-key="81" class="key">
-            <kbd>Q</kbd>
-            <span class="sound">C3</span>
-        </button>
-        <button onClick="playSound(this.value)" value= "87" data-key="87" class="key">
-            <kbd>W</kbd>
-            <span class="sound">D3</span>
-        </button>
-        <button onClick="playSound(this.value)" value= "69" data-key="69" class="key">
-            <kbd>E</kbd>
-            <span class="sound">E3</span>
-        </button>
-        <button onClick="playSound(this.value)" value= "82" data-key="82" class="key">
-            <kbd>R</kbd>
-            <span class="sound">F3</span>
-        </button>
-        <button onClick="playSound(this.value)" value= "84"  data-key="84" class="key">
-            <kbd>T</kbd>
-            <span class="sound">G3</span>
-        </button>
-        <button onClick="playSound(this.value)" value= "89" data-key="89" class="key">
-            <kbd>Y</kbd>
-            <span class="sound">A3</span>
-        </button>
-        <button onClick="playSound(this.value)" value= "85" data-key="85" class="key">
-            <kbd>U</kbd>
-            <span class="sound">B3</span>
-        </button>
-        <button onClick="playSound(this.value)" value= "73" data-key="73" class="key">
-            <kbd>I</kbd>
-            <span class="sound">C4</span>
-        </button>
-        <button onClick="playSound(this.value)" value= "79" data-key="79" class="key">
-            <kbd>O</kbd>
-            <span class="sound">D4</span>
-        </button>
-        <audio data-key="81" src="assets/sounds/boom.wav"></audio>
-        <audio data-key="87" src="assets/sounds/clap.wav"></audio>
-        <audio data-key="69" src="assets/sounds/hihat.wav"></audio>
-        <audio data-key="82" src="assets/sounds/kick.wav"></audio>
-        <audio data-key="84" src="assets/sounds/openhat.wav"></audio>
-        <audio data-key="89" src="assets/sounds/ride.wav"></audio>
-        <audio data-key="85" src="assets/sounds/snare.wav"></audio>
-        <audio data-key="73" src="assets/sounds/tink.wav"></audio>
-        <audio data-key="79" src="assets/sounds/tom.wav"></audio>
-    </div>
+    <h1>Press keys on keyboard to listen Sounds</h1>
+  
+    <ul class="set">
+        <li class="white e" onClick="playSound(this.value)" value="9" data-key="9" class="key"><kbd> C</kbd></li>
+            <li class="black ds" onClick="playSound(this.value)"value="49" data-key="49" class="key"><kbd>1</kbd></li>
+        <li class="white d" onClick="playSound(this.value)" value="81" data-key="81" class="key"> <kbd>D</kbd></li>
+             <li class="black cs" onClick="playSound(this.value)"value="50" data-key="50" class="key"><kbd>2</kbd>></li>
+        <li class="white c" onClick="playSound(this.value)" value="87" data-key="87" class="key"><kbd>E</kbd></li>
+        <li class="white b" onClick="playSound(this.value)" value="69" data-key="69" class="key"> <kbd>F</kbd> </li>
+             <li class="black as" onClick="playSound(this.value)"value="52" data-key="52" class="key"><kbd>4</kbd></li>
+        <li class="white a" onClick="playSound(this.value)" value="82" data-key="82" class="key"> <kbd>G</kbd> </li>
+             <li class="black gs" onClick="playSound(this.value)"value="53" data-key="53" class="key"><kbd>5</kbd></li>
+        <li class="white g" onClick="playSound(this.value)" value="84" data-key="84" class="key"><kbd>A</kbd2></li>
+             <li class="black fs" onClick="playSound(this.value)"value="54" data-key="54" class="key"><kbd>6</kbd></li>
+        <li class="white f" onClick="playSound(this.value)" value="89" data-key="89" class="key"> <kbd>B</kbd></li>
+                                    <!-- OCTAVE -->
+        <li class="white e" onClick="playSound(this.value)" value="9" data-key="9" class="key"><kbd> C</kbd></li>
+            <li class="black ds" onClick="playSound(this.value)"value="49" data-key="49" class="key"><kbd>1</kbd></li>
+        <li class="white d" onClick="playSound(this.value)" value="81" data-key="81" class="key"> <kbd>D</kbd></li>
+             <li class="black cs" onClick="playSound(this.value)"value="50" data-key="50" class="key"><kbd>2</kbd>></li>
+        <li class="white c" onClick="playSound(this.value)" value="87" data-key="87" class="key"><kbd>E</kbd></li>
+        <li class="white b" onClick="playSound(this.value)" value="69" data-key="69" class="key"> <kbd>F</kbd> </li>
+             <li class="black as" onClick="playSound(this.value)"value="52" data-key="52" class="key"><kbd>4</kbd></li>
+        <li class="white a" onClick="playSound(this.value)" value="82" data-key="82" class="key"> <kbd>G</kbd> </li>
+             <li class="black gs" onClick="playSound(this.value)"value="53" data-key="53" class="key"><kbd>5</kbd></li>
+        <li class="white g" onClick="playSound(this.value)" value="84" data-key="84" class="key"><kbd>A</kbd2></li>
+             <li class="black fs" onClick="playSound(this.value)"value="54" data-key="54" class="key"><kbd>6</kbd></li>
+        <li class="white f" onClick="playSound(this.value)" value="89" data-key="89" class="key"> <kbd>B</kbd></li>
+    </ul>
+    
+    <audio data-key="69" src="assets/sounds/tink.wav"></audio>
+    <audio data-key="49" src="assets/sounds/tom.wav"></audio>
+    <audio data-key="9" src="assets/sounds/boom.wav"></audio>
+    <audio data-key="81" src="assets/sounds/boom.wav"></audio>
+    <audio data-key="50" src="assets/sounds/hihat.wav"></audio>
+    <audio data-key="87" src="assets/sounds/clap.wav"></audio>
+    <audio data-key="52" src="assets/sounds/clap.wav"></audio>
+    <audio data-key="82" src="assets/sounds/kick.wav"></audio>
+    <audio data-key="53" src="assets/sounds/snare.wav"></audio>
+    <audio data-key="84" src="assets/sounds/openhat.wav"></audio>
+    <audio data-key="54" src="assets/sounds/tom.wav"></audio>
+    <audio data-key="89" src="assets/sounds/ride.wav"></audio>
+
     <script src="assets/app.js"></script>
 </body>
 
