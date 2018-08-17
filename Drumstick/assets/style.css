@@ -1,6 +1,6 @@
   html {
       font-size: 10px;
-      background: url(https://i.ytimg.com/vi/rCq7wdTZaNs/maxresdefault.jpg) bottom center;
+      background: url(https://png.pngtree.com/thumb_back/fh260/back_pic/03/79/11/8057c26f9611898.jpg) bottom center;
       background-size: cover;
       display: flex;
       min-height: 100vh;
@@ -12,6 +12,11 @@
       padding: 0;
       font-family: sans-serif;
   }
+  .playing {
+    /* transform: scale(1.1);	    */
+    border-color: #ffc600;  	    
+    box-shadow: 0 0 1rem #ffc600;	    
+}
   ul.set {
       display: flex;
       justify-content: center;
@@ -48,10 +53,9 @@
       padding-left: 300px; */
       font-size: 55px;
       font-family: 'Tangerine', serif;
-  padding-left: 300px;
-      /* text-shadow: 2px 2px 2px #aaa; */
-      color:goldenrod;
-  }
+  padding-left: 400px;
+      text-shadow: 2px 2px 2px #aaa;
+color:purple }
 
   ul {
       height: 18.875em;
@@ -83,18 +87,18 @@
       border-left: 1px solid #bbb;
       border-bottom: 1px solid #bbb;
       border-radius: 0 0 5px 5px;
-      /* box-shadow: -1px 0 0 rgba(255, 255, 255, 0.8) inset, 0 0 5px #ccc inset, 0 0 3px rgba(0, 0, 0, 0.2); */
-      /* background: linear-gradient(top, #eee 0%, #fff 100%); */
-      box-shadow: 0 0 1rem #ffc600;
-      background: #e9e9e9;
+      box-shadow: -1px 0 0 rgba(255, 255, 255, 0.8) inset, 0 0 5px #ccc inset, 0 0 3px rgba(0, 0, 0, 0.2); 
+      background: linear-gradient(top, #eee 0%, #fff 100%);
+      box-shadow: 0 0 1rem black;
+       background: #e9e9e9;
+      /* background: url(p.jpg) ; */
   }
 
   ul .white:active {
-      border-top: 1px solid #777;
-      border-left: 1px solid #999;
-      border-bottom: 1px solid #999;
-      box-shadow: 2px 0 3px rgba(0, 0, 0, 0.1) inset, -5px 5px 20px rgba(0, 0, 0, 0.2) inset, 0 0 3px rgba(0, 0, 0, 0.2);
-      background: linear-gradient(top, #fff 0%, #e9e9e9 100%);
+      border-top: 1px solid rgb(221, 65, 169);
+      border-left: 1px solid rgb(221, 65, 169);
+      border-bottom: 1px solid rgb(221, 65, 169);
+      box-shadow: 2px 0 3px rgb(221, 65, 169) inset, -5px 5px 20px rgb(221, 65, 169) inset, 0 0 3px rgb(221, 65, 169);
   }
 
   .black {
